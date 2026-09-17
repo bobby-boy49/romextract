@@ -17,6 +17,7 @@
 #define MKDIR(x) mkdir(x)
 #else
 #include <unistd.h>
+#include <sys/stat.h>
 #define DIREXISTS(x) (chdir(x) >= 0)
 #define MKDIR(x) mkdir(x, 0777)
 #endif
