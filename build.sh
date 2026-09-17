@@ -2,7 +2,7 @@
 # A very simple shell script to build the necessary software for ROM extraction.
 # Author: Bryan Cain
 # Date: December 20, 2010
-
+# Edited: bobby_boy49 September 17, 2026
 mkdir -p bin
 
 fail() {
