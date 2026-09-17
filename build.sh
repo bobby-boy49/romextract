@@ -15,5 +15,5 @@ cc src/ccfextract.c -obin/ccfextract -lz || fail
 cc src/wadunpacker.c src/bn.c src/ec.c src/tools.c -lcrypto -obin/wadunpacker || fail
 cc src/romc.c -obin/romc || fail
 cp src/nes_rom_extract.py bin/nes_rom_extract && chmod +x bin/nes_rom_extract || fail
+echo "ebe42a225e8593e448d9c5457381aaf7" | xxd -r -p > common-key.bin
 echo "Done!"
-
